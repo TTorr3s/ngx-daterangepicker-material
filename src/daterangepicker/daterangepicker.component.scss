@@ -1,63 +1,63 @@
 /*
 *  variables
 */
-$md-drppicker-color:                      inherit !default;
-$md-drppicker-bg-color:                   #fff !default;
+$md-drppicker-color: inherit !default;
+$md-drppicker-bg-color: #fff !default;
 
-$md-drppicker-cell-color:                 $md-drppicker-color !default;
-$md-drppicker-cell-border-color:          transparent !default;
-$md-drppicker-cell-bg-color:              $md-drppicker-bg-color !default;
+$md-drppicker-cell-color: $md-drppicker-color !default;
+$md-drppicker-cell-border-color: transparent !default;
+$md-drppicker-cell-bg-color: $md-drppicker-bg-color !default;
 
-$md-drppicker-cell-hover-color:           $md-drppicker-color !default;
-$md-drppicker-cell-hover-border-color:    $md-drppicker-cell-border-color !default;
-$md-drppicker-cell-hover-bg-color:        #eee !default;
+$md-drppicker-cell-hover-color: $md-drppicker-color !default;
+$md-drppicker-cell-hover-border-color: $md-drppicker-cell-border-color !default;
+$md-drppicker-cell-hover-bg-color: #eee !default;
 
-$md-drppicker-in-range-color:             #000 !default;
-$md-drppicker-in-range-border-color:      transparent !default;
-$md-drppicker-in-range-bg-color:          #dde2e4 !default;
+$md-drppicker-in-range-color: #000 !default;
+$md-drppicker-in-range-border-color: transparent !default;
+$md-drppicker-in-range-bg-color: #dde2e4 !default;
 
-$md-drppicker-active-color:               #fff !default;
-$md-drppicker-active-bg-color:            #3f51b5 !default;
-$md-drppicker-active-border-color:        transparent !default;
+$md-drppicker-active-color: #fff !default;
+$md-drppicker-active-bg-color: #3f51b5 !default;
+$md-drppicker-active-border-color: transparent !default;
 
-$md-drppicker-unselected-color:           #999 !default;
-$md-drppicker-unselected-border-color:    transparent !default;
-$md-drppicker-unselected-bg-color:        #fff !default;
+$md-drppicker-unselected-color: #999 !default;
+$md-drppicker-unselected-border-color: transparent !default;
+$md-drppicker-unselected-bg-color: #fff !default;
 
-$md-drppicker-width:          278px !default;
-$md-drppicker-width-double:          auto !default;
-$md-drppicker-border-color:   #ccc !default;
+$md-drppicker-width: 278px !default;
+$md-drppicker-width-double: auto !default;
+$md-drppicker-border-color: #ccc !default;
 
-$md-drppicker-calendar-margin:              4px !default;
-$md-drppicker-calendar-bg-color:            $md-drppicker-bg-color !default;
+$md-drppicker-calendar-margin: 4px !default;
+$md-drppicker-calendar-bg-color: $md-drppicker-bg-color !default;
 
-$md-drppicker-calendar-border-size:         1px !default;
-$md-drppicker-calendar-border-color:        $md-drppicker-bg-color !default;
-$md-drppicker-calendar-border-radius:       4px !default;
+$md-drppicker-calendar-border-size: 1px !default;
+$md-drppicker-calendar-border-color: $md-drppicker-bg-color !default;
+$md-drppicker-calendar-border-radius: 4px !default;
 
-$md-drppicker-cell-size:           20px !default;
-$md-drppicker-cell-width:          $md-drppicker-cell-size !default;
-$md-drppicker-cell-height:         $md-drppicker-cell-size !default;
+$md-drppicker-cell-size: 20px !default;
+$md-drppicker-cell-width: $md-drppicker-cell-size !default;
+$md-drppicker-cell-height: $md-drppicker-cell-size !default;
 
-$md-drppicker-cell-border-radius:  $md-drppicker-calendar-border-radius !default;
-$md-drppicker-cell-border-size:    1px !default;
+$md-drppicker-cell-border-radius: $md-drppicker-calendar-border-radius !default;
+$md-drppicker-cell-border-size: 1px !default;
 
-$md-drppicker-control-height:               30px !default;
-$md-drppicker-control-line-height:          $md-drppicker-control-height !default;
-$md-drppicker-control-color:                #555 !default;
+$md-drppicker-control-height: 30px !default;
+$md-drppicker-control-line-height: $md-drppicker-control-height !default;
+$md-drppicker-control-color: #555 !default;
 
-$md-drppicker-control-border-size:          1px !default;
-$md-drppicker-control-border-color:         #ccc !default;
-$md-drppicker-control-border-radius:        4px !default;
+$md-drppicker-control-border-size: 1px !default;
+$md-drppicker-control-border-color: #ccc !default;
+$md-drppicker-control-border-radius: 4px !default;
 
-$md-drppicker-control-active-border-size:   1px !default;
-$md-drppicker-control-active-border-color:  #08c !default;
+$md-drppicker-control-active-border-size: 1px !default;
+$md-drppicker-control-active-border-color: #08c !default;
 $md-drppicker-control-active-border-radius: $md-drppicker-control-border-radius !default;
 
-$md-drppicker-control-disabled-color:       #ccc !default;
+$md-drppicker-control-disabled-color: #ccc !default;
 // Select
 $select-border: 1px solid #f2f2f2 !default;
-$select-background: rgba(255, 255, 255, 0.90) !default;
+$select-background: rgba(255, 255, 255, 0.9) !default;
 $select-padding: 5px !default;
 $select-radius: 2px !default;
 $input-height: 3rem !default;
@@ -86,15 +86,14 @@ $input-height: 3rem !default;
     display: inline-block;
   }
 
-  &:before, &:after {
+  &:before,
+  &:after {
     position: absolute;
     display: inline-block;
 
     border-bottom-color: rgba(0, 0, 0, 0.2);
     content: '';
   }
-
-
 
   &.openscenter {
     &:before {
@@ -115,7 +114,8 @@ $input-height: 3rem !default;
   }
 
   &.single {
-    .ranges, .calendar {
+    .ranges,
+    .calendar {
       float: none;
     }
   }
@@ -125,10 +125,10 @@ $input-height: 3rem !default;
     transition: all 0.1s ease-in-out;
     transform-origin: 0 0;
     -webkit-touch-callout: none;
-      -webkit-user-select: none;
-        -moz-user-select: none;
-          -ms-user-select: none;
-              user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
     &.drops-up-left {
       transform-origin: 100% 100%;
     }
@@ -157,10 +157,10 @@ $input-height: 3rem !default;
     transform-origin: 0 0;
     cursor: default;
     -webkit-touch-callout: none;
-      -webkit-user-select: none;
-        -moz-user-select: none;
-          -ms-user-select: none;
-              user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
     &.drops-up-left {
       transform-origin: 100% 100%;
     }
@@ -179,7 +179,7 @@ $input-height: 3rem !default;
     &.drops-up-center {
       transform-origin: 50% 100%;
     }
-    
+
     .calendar {
       display: none;
     }
@@ -196,7 +196,8 @@ $input-height: 3rem !default;
       }
     }
 
-    th, td {
+    th,
+    td {
       padding: 0;
       white-space: nowrap;
       text-align: center;
@@ -221,7 +222,8 @@ $input-height: 3rem !default;
   th {
     color: #988c8c;
   }
-  td, th {
+  td,
+  th {
     text-align: center;
     width: $md-drppicker-cell-width;
     height: $md-drppicker-cell-height;
@@ -235,12 +237,12 @@ $input-height: 3rem !default;
     &.available {
       &.prev {
         display: block;
-        background-image: url("data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgMy43IDYiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDMuNyA2IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxnPg0KCTxwYXRoIGQ9Ik0zLjcsMC43TDEuNCwzbDIuMywyLjNMMyw2TDAsM2wzLTNMMy43LDAuN3oiLz4NCjwvZz4NCjwvc3ZnPg0K");
+        background-image: url('data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgMy43IDYiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDMuNyA2IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxnPg0KCTxwYXRoIGQ9Ik0zLjcsMC43TDEuNCwzbDIuMywyLjNMMyw2TDAsM2wzLTNMMy43LDAuN3oiLz4NCjwvZz4NCjwvc3ZnPg0K');
         background-repeat: no-repeat;
-        background-size: .5em;
+        background-size: 0.5em;
         background-position: center;
-        opacity: .8;
-        transition: background-color .2s ease;
+        opacity: 0.8;
+        transition: background-color 0.2s ease;
         border-radius: 2em;
         &:hover {
           margin: 0;
@@ -249,12 +251,12 @@ $input-height: 3rem !default;
       &.next {
         transform: rotate(180deg);
         display: block;
-        background-image: url("data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgMy43IDYiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDMuNyA2IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxnPg0KCTxwYXRoIGQ9Ik0zLjcsMC43TDEuNCwzbDIuMywyLjNMMyw2TDAsM2wzLTNMMy43LDAuN3oiLz4NCjwvZz4NCjwvc3ZnPg0K");
+        background-image: url('data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgMy43IDYiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDMuNyA2IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxnPg0KCTxwYXRoIGQ9Ik0zLjcsMC43TDEuNCwzbDIuMywyLjNMMyw2TDAsM2wzLTNMMy43LDAuN3oiLz4NCjwvZz4NCjwvc3ZnPg0K');
         background-repeat: no-repeat;
-        background-size: .5em;
+        background-size: 0.5em;
         background-position: center;
-        opacity: .8;
-        transition: background-color .2s ease;
+        opacity: 0.8;
+        transition: background-color 0.2s ease;
         border-radius: 2em;
         &:hover {
           margin: 0;
@@ -266,16 +268,15 @@ $input-height: 3rem !default;
         border-color: $md-drppicker-cell-hover-border-color;
         color: $md-drppicker-cell-hover-color;
         background-repeat: no-repeat;
-        background-size: .5em;
+        background-size: 0.5em;
         background-position: center;
-        margin: .25em 0;
-        opacity: .8;
+        margin: 0.25em 0;
+        opacity: 0.8;
         /*transition: background-color .2s ease;*/
         border-radius: 2em;
 
         transform: scale(1);
         transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
-
       }
     }
 
@@ -286,14 +287,17 @@ $input-height: 3rem !default;
   }
 
   td {
-        margin: .25em 0;
-        opacity: .8;
-        transition: background-color .2s ease;
-        border-radius: 2em;
-        transform: scale(1);
-        transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+    margin: 0.25em 0;
+    opacity: 0.8;
+    transition: background-color 0.2s ease;
+    border-radius: 2em;
+    transform: scale(1);
+    transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
     &.off {
-      &, &.in-range, &.start-date, &.end-date {
+      &,
+      &.in-range,
+      &.start-date,
+      &.end-date {
         background-color: $md-drppicker-unselected-bg-color;
         border-color: $md-drppicker-unselected-border-color;
         color: $md-drppicker-unselected-color;
@@ -326,7 +330,8 @@ $input-height: 3rem !default;
     &.active {
       transition: background 300ms ease-out;
       background: rgba(0, 0, 0, 0.1);
-      &, &:hover {
+      &,
+      &:hover {
         background-color: $md-drppicker-active-bg-color;
         border-color: $md-drppicker-active-border-color;
         color: $md-drppicker-active-color;
@@ -341,7 +346,8 @@ $input-height: 3rem !default;
   }
 
   // disabled controls
-  td, option {
+  td,
+  option {
     &.disabled {
       color: #999;
       cursor: not-allowed;
@@ -364,14 +370,15 @@ $input-height: 3rem !default;
       border: $select-border;
       border-radius: $select-radius;
       height: $input-height;
-      &.monthselect, &.yearselect {
+      &.monthselect,
+      &.yearselect {
         font-size: 12px;
         padding: 1px;
         height: auto;
         margin: 0;
         cursor: default;
       }
-      &.hourselect, 
+      &.hourselect,
       &.minuteselect,
       &.secondselect,
       &.ampmselect {
@@ -388,9 +395,9 @@ $input-height: 3rem !default;
       &.yearselect {
         cursor: pointer;
         opacity: 0;
-        position: absolute; 
-        top: 0; 
-        left: 0; 
+        position: absolute;
+        top: 0;
+        left: 0;
         margin: 0;
         padding: 0;
       }
@@ -398,7 +405,7 @@ $input-height: 3rem !default;
   }
 
   th.month > div {
-    position: relative; 
+    position: relative;
     display: inline-block;
   }
 
@@ -419,7 +426,7 @@ $input-height: 3rem !default;
         font-size: 18px;
         border-radius: 0;
         border: none;
-        border-bottom: 1px solid rgba(0,0,0, 0.12);
+        border-bottom: 1px solid rgba(0, 0, 0, 0.12);
         /* Remove focus */
         &:after {
           position: absolute;
@@ -439,7 +446,7 @@ $input-height: 3rem !default;
           outline: none;
         }
         .select-label {
-          color: rgba(0,0,0, 0.26);
+          color: rgba(0, 0, 0, 0.26);
           font-size: 16px;
           font-weight: normal;
           position: absolute;
@@ -451,7 +458,7 @@ $input-height: 3rem !default;
       }
     }
   }
-  
+
   .calendar-time select.disabled {
     color: #ccc;
     cursor: not-allowed;
@@ -479,7 +486,8 @@ $input-height: 3rem !default;
     position: relative;
     padding: 0 30px 0 0;
 
-    i, svg {
+    i,
+    svg {
       position: absolute;
       left: 8px;
       top: 8px;
@@ -490,7 +498,8 @@ $input-height: 3rem !default;
       padding-right: 28px;
       padding-left: 6px;
     }
-    .md-drppicker_input i,  .md-drppicker_input svg{
+    .md-drppicker_input i,
+    .md-drppicker_input svg {
       left: auto;
       right: 8px;
     }
@@ -543,7 +552,7 @@ $input-height: 3rem !default;
       margin-top: 8px;
     }
   }
-    
+
   [hidden] {
     display: none;
   }
@@ -561,15 +570,16 @@ $input-height: 3rem !default;
     padding: 0px 6px;
     cursor: pointer;
     border-radius: 2px;
-    box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
     background-color: #3f51b5;
     color: #ecf0f1;
-    transition: background-color .4s;
+    transition: background-color 0.4s;
     height: auto;
     text-transform: uppercase;
     line-height: 36px;
     border: none;
-    &:hover, &:focus {
+    &:hover,
+    &:focus {
       background-color: #3f51b5;
     }
     & > * {
@@ -580,7 +590,7 @@ $input-height: 3rem !default;
       padding: 12px 24px;
     }
     &:before {
-      content: "";
+      content: '';
       position: absolute;
       top: 50%;
       left: 50%;
@@ -589,7 +599,7 @@ $input-height: 3rem !default;
       width: 0;
       padding-top: 0;
       border-radius: 100%;
-      background-color: rgba(236, 240, 241, .3);
+      background-color: rgba(236, 240, 241, 0.3);
       -webkit-transform: translate(-50%, -50%);
       -moz-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
@@ -600,11 +610,11 @@ $input-height: 3rem !default;
       &:before {
         width: 120%;
         padding-top: 120%;
-        transition: width .2s ease-out, padding-top .2s ease-out;
+        transition: width 0.2s ease-out, padding-top 0.2s ease-out;
       }
     }
     &:disabled {
-      opacity:0.5;
+      opacity: 0.5;
     }
     &.btn-default {
       color: black;
@@ -634,7 +644,7 @@ $input-height: 3rem !default;
     &.ltr {
       direction: ltr;
       text-align: left;
-      .calendar{
+      .calendar {
         &.left {
           clear: left;
           /*margin-right: 1.5em;*/
@@ -668,14 +678,15 @@ $input-height: 3rem !default;
         padding-right: 12px;
       }
 
-      .ranges, .calendar {
+      .ranges,
+      .calendar {
         float: left;
       }
     }
     &.rtl {
       direction: rtl;
       text-align: right;
-      .calendar{
+      .calendar {
         &.left {
           clear: right;
           margin-left: 0;
@@ -706,7 +717,8 @@ $input-height: 3rem !default;
         padding-left: 12px;
       }
 
-      .ranges, .calendar {
+      .ranges,
+      .calendar {
         text-align: right;
         float: right;
       }
@@ -714,8 +726,7 @@ $input-height: 3rem !default;
   }
   .drp-animate {
     transform: translate(0);
-    transition: transform .2s ease,
-                opacity .2s ease;
+    transition: transform 0.2s ease, opacity 0.2s ease;
 
     &.drp-picker-site-this {
       transition-timing-function: linear;
@@ -754,4 +765,3 @@ $input-height: 3rem !default;
     }
   }
 }
-
