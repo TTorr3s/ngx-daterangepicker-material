@@ -14,17 +14,17 @@ $md-drppicker-cell-hover-bg-color: #eee !default;
 
 $md-drppicker-in-range-color: #000 !default;
 $md-drppicker-in-range-border-color: transparent !default;
-$md-drppicker-in-range-bg-color: #dde2e4 !default;
+$md-drppicker-in-range-bg-color: #efefef !default;
 
 $md-drppicker-active-color: #fff !default;
-$md-drppicker-active-bg-color: #3f51b5 !default;
+$md-drppicker-active-bg-color: #424242 !default;
 $md-drppicker-active-border-color: transparent !default;
 
 $md-drppicker-unselected-color: #999 !default;
 $md-drppicker-unselected-border-color: transparent !default;
 $md-drppicker-unselected-bg-color: #fff !default;
 
-$md-drppicker-width: 278px !default;
+$md-drppicker-width: 360px !default;
 $md-drppicker-width-double: auto !default;
 $md-drppicker-border-color: #ccc !default;
 
@@ -61,6 +61,11 @@ $select-background: rgba(255, 255, 255, 0.9) !default;
 $select-padding: 5px !default;
 $select-radius: 2px !default;
 $input-height: 3rem !default;
+
+.pb-1 {
+  padding-bottom: 12px !important;
+}
+
 /*
 * styles
 */
@@ -77,7 +82,6 @@ $input-height: 3rem !default;
   z-index: 1000;
   font-size: 14px;
   background-color: #ffffff;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 8px 0 rgba(0, 0, 0, 0.12);
   &.double {
     width: $md-drppicker-width-double;
   }
@@ -198,7 +202,7 @@ $input-height: 3rem !default;
 
     th,
     td {
-      padding: 0;
+      padding: 8px 14px;
       white-space: nowrap;
       text-align: center;
       min-width: 32px;
@@ -273,8 +277,10 @@ $input-height: 3rem !default;
         margin: 0.25em 0;
         opacity: 0.8;
         /*transition: background-color .2s ease;*/
-        border-radius: 2em;
-
+        border-radius: 0.8em;
+        &.end-date {
+          border-radius: 0 16px 16px 0;
+        }
         transform: scale(1);
         transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
       }
@@ -530,7 +536,8 @@ $input-height: 3rem !default;
           text-align: left;
           cursor: pointer;
           &.active {
-            background-color: #3f51b5;
+            background-color: $md-drppicker-active-bg-color;
+          ;
             color: #fff;
           }
           &[disabled] {
@@ -567,11 +574,11 @@ $input-height: 3rem !default;
     overflow: hidden;
     border-width: 0;
     outline: none;
-    padding: 0px 6px;
+    padding: 0 6px;
     cursor: pointer;
     border-radius: 2px;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
-    background-color: #3f51b5;
+    background-color: $md-drppicker-active-bg-color;
     color: #ecf0f1;
     transition: background-color 0.4s;
     height: auto;
@@ -580,7 +587,7 @@ $input-height: 3rem !default;
     border: none;
     &:hover,
     &:focus {
-      background-color: #3f51b5;
+      background-color: $md-drppicker-active-bg-color;
     }
     & > * {
       position: relative;
